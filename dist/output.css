@@ -649,17 +649,12 @@ video {
   border-radius: 1rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
-.rounded-b-xl {
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -688,10 +683,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 
 .pb-3 {
@@ -756,10 +747,6 @@ video {
   opacity: 0;
 }
 
-.opacity-20 {
-  opacity: 0.2;
-}
-
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -776,58 +763,21 @@ body {
 
 /* npx tailwindcss -i ./input.css -o ./dist/output.css --watch */
 
-.hover\:text-lg:hover {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .hover\:text-opacity-70:hover {
   --tw-text-opacity: 0.7;
-}
-
-.hover\:opacity-70:hover {
-  opacity: 0.7;
-}
-
-.hover\:opacity-100:hover {
-  opacity: 1;
-}
-
-.hover\:opacity-20:hover {
-  opacity: 0.2;
-}
-
-.hover\:opacity-50:hover {
-  opacity: 0.5;
-}
-
-.hover\:opacity-5:hover {
-  opacity: 0.05;
 }
 
 .hover\:opacity-10:hover {
   opacity: 0.1;
 }
 
-.active\:bg-opacity-100:active {
-  --tw-bg-opacity: 1;
+.hover\:opacity-70:hover {
+  opacity: 0.7;
 }
 
 .active\:text-cyan:active {
   --tw-text-opacity: 1;
   color: hsl(178 100% 50% / var(--tw-text-opacity));
-}
-
-.active\:opacity-100:active {
-  opacity: 1;
-}
-
-.active\:opacity-50:active {
-  opacity: 0.5;
-}
-
-.active\:opacity-30:active {
-  opacity: 0.3;
 }
 
 .active\:opacity-40:active {
